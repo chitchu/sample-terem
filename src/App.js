@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Container from 'rebass/dist/Container';
+import ScoreForm from './components/ScoreForm';
+import PageHeader from 'rebass/dist/PageHeader';
 
 class App extends Component {
+  handleSave = () => {};
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
-        </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Container>
+        <PageHeader
+          pt={0}
+          pb={0}
+          mt={1}
+          mb={2}
+          heading={`Foosball Matches`}
+          description={`So who won?`}
+        />
+        <ScoreForm onSave={this.handleSave} />
+      </Container>
     );
   }
 }
