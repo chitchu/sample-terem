@@ -1,10 +1,14 @@
 {
   "name": "sample-terem",
   "version": "0.1.0",
+  "homepage": "https://chitchu.github.io/sample-terem",
   "private": true,
   "dependencies": {
+    "normalize.css": "^6.0.0",
     "react": "^15.4.2",
-    "react-dom": "^15.4.2"
+    "react-dom": "^15.4.2",
+    "react-geomicons": "^2.1.0",
+    "rebass": "^0.3.4"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
