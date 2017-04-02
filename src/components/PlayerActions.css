@@ -1,0 +1,7 @@
+.player-actions-container {
+  margin-top:1rem;
+}
+
+.player-actions-container button.ButtonCircle  {
+  margin-right:0.4rem!important;
+}
